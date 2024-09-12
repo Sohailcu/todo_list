@@ -7,11 +7,13 @@
     <!-- BootStrap CSS CDN -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="favicon.png">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1 class="text-center text-4xl font-bold mb-8">IT MAN PAKISTAN</h1>
-    <img src="./logo.png" alt="IT MAN PAKISTAN" class="absolute top-4 right-4 h-auto w-40 mb-8">
+    <img src="./logo.png" alt="IT MAN PAKISTAN" class="block mx-auto md:absolute md:top-4 md:right-4 h-auto w-40 md:w-24 mb-8">
+    <!-- <img src="./logo.png" alt="IT MAN PAKISTAN" class="absolute top-4 right-4 h-auto w-40 md-24"> -->
     <div class="container mx-auto mt-10">
         <h1 class="text-center text-4xl font-bold mb-4">To-Do List</h1>
         <div class="mb-4">
@@ -22,13 +24,13 @@
                 <option value="Medium">Medium</option>
                 <option value="High">High</option>
             </select>
-            <button id="add-task" class="w-full p-2 bg-blue-500 text-white rounded">Add Task</button>
+            <button id="add-task" class="w-full p-2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Add Task</button>
         </div>
         
         <ul id="task-list" class="list-group"></ul>
     </div>
     <!-- Bootstrap JS, Popper.js, and jQuery CDN -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="script.js"></script>

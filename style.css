@@ -30,6 +30,7 @@ body {
     margin: 0 auto;
     background: #555454;
     padding: 20px;
+    padding: 1rem;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     border-radius: 10px;
 }
@@ -81,4 +82,6 @@ li button {
 
 li button:hover {
     background-color: #c82333;
-}
+}  
+  
+  
